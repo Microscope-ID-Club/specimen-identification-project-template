@@ -7,12 +7,13 @@ The underlying method is described and versioned separately in [Conversational s
 ## Set up this project
 
 1. Replace this title and introduction with the project's name and purpose.
-2. Complete every applicable section of `PROJECT.md` before adding real specimen information.
-3. Review the repository visibility and collaborator access settings.
-4. Review the local instructions after the managed section of `AGENTS.md` and add only project-specific rules that are necessary.
-5. Replace the `Project` value in `templates/specimen-record.md` with the project's preferred name, or leave it as a field to complete for each record.
-6. Retain the fictional example or replace it with a clearly labelled fictional or suitably generalised example.
-7. Remove this setup checklist when the project documentation is ready for participants.
+2. Ask every observer to read `METHOD.md` before beginning a specimen examination. It explains the observer's role, the intended interaction with the AI companion, and the reasoning behind the process.
+3. Complete every applicable section of `PROJECT.md` before adding real specimen information.
+4. Review the repository visibility and collaborator access settings.
+5. Review the local instructions after the managed section of `AGENTS.md` and add only project-specific rules that are necessary.
+6. Replace the `Project` value in `templates/specimen-record.md` with the project's preferred name, or leave it as a field to complete for each record.
+7. Retain the fictional example or replace it with a clearly labelled fictional or suitably generalised example.
+8. Remove this setup checklist when the project documentation is ready for participants.
 
 Creating a repository from this template copies the files but does not subscribe the new project to later improvements. Check the [source method](https://github.com/Microscope-ID-Club/conversational-specimen-identification) periodically. Maintainers with access to the private development package `eco.records` may also use its comparison and synchronization functions for the managed section of `AGENTS.md`.
 
@@ -30,7 +31,7 @@ Creating a repository from this template copies the files but does not subscribe
 
 - `AGENTS.md` contains the conversational examination instructions and a local project overlay.
 - `PROJECT.md` records the project's scope and governance decisions.
-- `METHOD.md` explains the reasoning behind the method.
+- `METHOD.md` provides observers with important context for working with the AI companion and explains the reasoning behind the method.
 - `RECORD_FORMAT.md` defines the portable Markdown record format.
 - `templates/specimen-record.md` is copied for each specimen.
 - `examples/example-specimen.md` is a fictional demonstration.
